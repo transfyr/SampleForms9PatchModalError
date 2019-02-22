@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:SampleForms9Patch" 
+             x:Class="SampleForms9Patch.SampleForms9PatchPage">
+    <Label Text="Welcome to Xamarin Forms!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    <Image x:Name="qrImage" Aspect="AspectFit"
+           Margin="1" BackgroundColor="Blue"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand" 
+           AbsoluteLayout.LayoutFlags="All"
+           AbsoluteLayout.LayoutBounds="1,0,0.495,0.2">
+        <Image.GestureRecognizers>
+            <TapGestureRecognizer Tapped="qrImagePopup"/>
+        </Image.GestureRecognizers>
+    </Image>
+</ContentPage>

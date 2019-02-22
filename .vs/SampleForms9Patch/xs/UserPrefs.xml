@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{A8B50609-A983-4CF3-B5D1-48B4F7C7C5DE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleForms9Patch/obj/Debug/SampleForms9PatchPage.xaml.g.cs">
+    <Files>
+      <File FileName="SampleForms9Patch/SampleForms9PatchPage.xaml" Line="20" Column="1" />
+      <File FileName="SampleForms9Patch/SampleForms9PatchPage.xaml.cs" Line="30" Column="43" />
+      <File FileName="Droid/MainActivity.cs" Line="25" Column="20" />
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="55" />
+      <File FileName="SampleForms9Patch/obj/Debug/SampleForms9PatchPage.xaml.g.cs" Line="24" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SampleForms9Patch.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0E8DFC57-43ED-4EAB-8973-78B9150E7D28">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.SampleForms9Patch.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
