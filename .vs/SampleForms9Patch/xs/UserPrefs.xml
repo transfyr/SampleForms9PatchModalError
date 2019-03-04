@@ -1,16 +1,17 @@
-﻿<Properties StartupConfiguration="{A8B50609-A983-4CF3-B5D1-48B4F7C7C5DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SampleForms9Patch/SampleForms9PatchPage.xaml">
+﻿<Properties StartupConfiguration="{094CE456-DA78-42E1-9D2C-D72D2A3A1512}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleForms9Patch/SampleForms9PatchPage.xaml.cs">
     <Files>
-      <File FileName="SampleForms9Patch/SampleForms9PatchPage.xaml" Line="6" Column="63" />
-      <File FileName="SampleForms9Patch/SampleForms9PatchPage.xaml.cs" Line="13" Column="10" />
+      <File FileName="SampleForms9Patch/SampleForms9PatchPage.xaml" Line="8" Column="26" />
+      <File FileName="SampleForms9Patch/SampleForms9PatchPage.xaml.cs" Line="3" Column="1" />
       <File FileName="Droid/MainActivity.cs" Line="25" Column="20" />
+      <File FileName="SampleForms9Patch/obj/Debug/SampleForms9PatchPage.xaml.g.cs" Line="72" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SampleForms9Patch.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SampleForms9Patch.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1E6C06EB-539F-493F-B910-26E524EA9352" />
 </Properties>

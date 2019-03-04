@@ -16,7 +16,7 @@ namespace SampleForms9Patch
 		{
             base.OnAppearing();
 
-            //mainGrid.HeightRequest = mAbsLayout.Height * 1.3;
+            mainGrid.HeightRequest = mAbsLayout.Height * 1.3;
 		}
 	}
 }
