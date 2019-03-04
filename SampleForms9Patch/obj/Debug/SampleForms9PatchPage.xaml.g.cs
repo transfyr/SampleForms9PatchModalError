@@ -17,16 +17,76 @@ namespace SampleForms9Patch {
     public partial class SampleForms9PatchPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ContentPage layoutSize;
+        private global::Xamarin.Forms.AbsoluteLayout mAbsLayout;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Image qrImage;
+        private global::Xamarin.Forms.ScrollView mScrollView;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Grid mainGrid;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.AbsoluteLayout mainAbsoluteLayout4;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label emailLabel;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label emailLabelInfo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label phoneLabel;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label phoneLabelInfo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label websiteLabel;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label websiteLabelInfo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label linkedinLabel;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label linkedinLabelInfo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label twitterLabel;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label twitterLabelInfo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label faxLabel;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Label faxLabelInfo;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Forms9Patch.Button qrImageButton;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SampleForms9PatchPage));
-            layoutSize = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "layoutSize");
-            qrImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "qrImage");
+            mAbsLayout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.AbsoluteLayout>(this, "mAbsLayout");
+            mScrollView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ScrollView>(this, "mScrollView");
+            mainGrid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "mainGrid");
+            mainAbsoluteLayout4 = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.AbsoluteLayout>(this, "mainAbsoluteLayout4");
+            emailLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "emailLabel");
+            emailLabelInfo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "emailLabelInfo");
+            phoneLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "phoneLabel");
+            phoneLabelInfo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "phoneLabelInfo");
+            websiteLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "websiteLabel");
+            websiteLabelInfo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "websiteLabelInfo");
+            linkedinLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "linkedinLabel");
+            linkedinLabelInfo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "linkedinLabelInfo");
+            twitterLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "twitterLabel");
+            twitterLabelInfo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "twitterLabelInfo");
+            faxLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "faxLabel");
+            faxLabelInfo = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Label>(this, "faxLabelInfo");
+            qrImageButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Forms9Patch.Button>(this, "qrImageButton");
         }
     }
 }

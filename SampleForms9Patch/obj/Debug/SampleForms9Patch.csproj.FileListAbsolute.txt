@@ -25,9 +25,11 @@
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/bin/Debug/FormsGestures.xml
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/bin/Debug/P42.NumericalMethods.pdb
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/bin/Debug/P42.Utils.pdb
+/Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/obj/Debug/SampleForms9Patch.csprojAssemblyReference.cache
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/obj/Debug/App.xaml.g.cs
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/obj/Debug/SampleForms9PatchPage.xaml.g.cs
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/obj/Debug/SampleForms9Patch.csproj.CoreCompileInputs.cache
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/obj/Debug/XamlC.stamp
+/Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/obj/Debug/SampleForms9Patch.csproj.CopyComplete
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/obj/Debug/SampleForms9Patch.dll
 /Users/admin/Projects/SampleForms9Patch/SampleForms9Patch/obj/Debug/SampleForms9Patch.pdb

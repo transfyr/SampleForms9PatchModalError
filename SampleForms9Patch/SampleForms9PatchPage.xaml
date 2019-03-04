@@ -2,30 +2,216 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:SampleForms9Patch" 
-             x:Class="SampleForms9Patch.SampleForms9PatchPage"
-             x:Name="layoutSize">
+             xmlns:Forms9Patch="clr-namespace:Forms9Patch;assembly=Forms9Patch"
+             x:Class="SampleForms9Patch.SampleForms9PatchPage">
+    
     <ContentPage.Content>
-        <AbsoluteLayout>
-            <ScrollView AbsoluteLayout.LayoutFlags="All"
-                        AbsoluteLayout.LayoutBounds="0,0,1,1">
-                <AbsoluteLayout>
-                    <Label Text="Welcome to Xamarin Forms!" 
-                           VerticalOptions="Center" 
-                           HorizontalOptions="Center" 
-                           AbsoluteLayout.LayoutFlags="All"
-                           AbsoluteLayout.LayoutBounds="0,0,1,.5"/>
-                    <Image x:Name="qrImage" Aspect="AspectFit"
-                           Margin="1" BackgroundColor="Blue"
-                           HorizontalOptions="FillAndExpand"
-                           VerticalOptions="FillAndExpand" 
-                           AbsoluteLayout.LayoutFlags="All"
-                           AbsoluteLayout.LayoutBounds="1,1,1,0.5">
-                        <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="qrImagePopup"/>
-                        </Image.GestureRecognizers>
-                    </Image>
-                </AbsoluteLayout>
+        <AbsoluteLayout x:Name="mAbsLayout" Padding="0" Margin="0" BackgroundColor="Gray">
+            <ScrollView x:Name="mScrollView" 
+                        Padding="0" Margin="0" AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds="0,0,1,1" BackgroundColor="Green">
+                <Grid x:Name="mainGrid" RowSpacing="0" HeightRequest="400">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="4*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="4*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <AbsoluteLayout x:Name="mainAbsoluteLayout4"
+                                                HorizontalOptions="FillAndExpand"
+                                                VerticalOptions="FillAndExpand"
+                                                BackgroundColor="White"
+                                                Grid.Row="3" Grid.Column="0">
+                        <BoxView HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="FillAndExpand"
+                                 BackgroundColor="Gray"
+                                 AbsoluteLayout.LayoutFlags="All"
+                                 AbsoluteLayout.LayoutBounds="0,0,1,0.16"/>
+                        <Forms9Patch:Label x:Name="emailLabel" Text="Email"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           Fit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.02105,1,0.05"/>
+                        <Forms9Patch:Label x:Name="emailLabelInfo" 
+                                           Text="a at a.a"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           AutoFit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.0769,1,0.09"/>
+                        <BoxView HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="FillAndExpand"
+                                 BackgroundColor="Gray"
+                                 AbsoluteLayout.LayoutFlags="All"
+                                 AbsoluteLayout.LayoutBounds="0,0.2,1,0.16"/>
+                        <Forms9Patch:Label x:Name="phoneLabel" Text="Phone"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           Fit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.19789,1,0.05"/>
+                        <Forms9Patch:Label x:Name="phoneLabelInfo" 
+                                           Text="18008888888"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           AutoFit="Lines" Lines="1"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.2615,1,0.09"/>
+                        <BoxView HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="FillAndExpand"
+                                 BackgroundColor="Gray"
+                                 AbsoluteLayout.LayoutFlags="All"
+                                 AbsoluteLayout.LayoutBounds="0,0.4,1,0.16"/>
+                        <Forms9Patch:Label x:Name="websiteLabel" Text="Website"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           Fit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.37474,1,0.05"/>
+                        <Forms9Patch:Label x:Name="websiteLabelInfo" 
+                                           Text="https:/www.github.com"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           AutoFit="Width" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.4461,1,0.09"/>
+                        <BoxView HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="FillAndExpand"
+                                 BackgroundColor="Gray"
+                                 AbsoluteLayout.LayoutFlags="All"
+                                 AbsoluteLayout.LayoutBounds="0,0.6,1,0.16"/>
+                        <Forms9Patch:Label x:Name="linkedinLabel" Text="LinkedIn"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           Fit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.55158,1,0.05"/>
+                        <Forms9Patch:Label x:Name="linkedinLabelInfo" 
+                                           Text="LinkedInInfo"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           AutoFit="Width" Lines="1"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.6307,1,0.09"/>
+                        <BoxView HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="FillAndExpand"
+                                 BackgroundColor="Gray"
+                                 AbsoluteLayout.LayoutFlags="All"
+                                 AbsoluteLayout.LayoutBounds="0,0.8,1,0.16"/>
+                        <Forms9Patch:Label x:Name="twitterLabel" Text="Twitter"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           Fit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.72842,1,0.05"/>
+                        <Forms9Patch:Label x:Name="twitterLabelInfo" 
+                                           Text="TwitterInfo"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           Fit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.8153,1,0.09"/>
+                        <BoxView HorizontalOptions="FillAndExpand"
+                                 VerticalOptions="FillAndExpand"
+                                 BackgroundColor="Gray"
+                                 AbsoluteLayout.LayoutFlags="All"
+                                 AbsoluteLayout.LayoutBounds="0,1,1,0.16"/>
+                        <Forms9Patch:Label x:Name="faxLabel" Text="Fax"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           Fit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,.90526,1,0.05"/>
+                        <Forms9Patch:Label x:Name="faxLabelInfo" 
+                                           Text="FaxInfo"
+                                           WidthRequest="50000"
+                                           HeightRequest="50000"
+                                           HorizontalOptions="FillAndExpand"
+                                           VerticalOptions="FillAndExpand"
+                                           HorizontalTextAlignment="Start"
+                                           VerticalTextAlignment="Center"
+                                           BackgroundColor="White"
+                                           TextColor="Black"
+                                           Fit="Lines" Lines="0"
+                                           AbsoluteLayout.LayoutFlags="All"
+                                           AbsoluteLayout.LayoutBounds="0,0.999,1,0.09"/>
+                    </AbsoluteLayout>
+                </Grid>
             </ScrollView>
-        </AbsoluteLayout>
-    </ContentPage.Content>
-</ContentPage>
+            <Forms9Patch:Button x:Name="qrImageButton"
+                                BackgroundColor="White"
+                                OutlineColor="Black" OutlineWidth="1"
+                                ElementShape="Circle" TintIcon="false"
+                                AbsoluteLayout.LayoutFlags="All"
+                                AbsoluteLayout.LayoutBounds="1,.9,.2,.2"/>
+        </AbsoluteLayout>     </ContentPage.Content> </ContentPage>
